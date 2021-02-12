@@ -9,8 +9,9 @@ class RoomsController < ApplicationController
       redirect_to root_path
     else
       render :new
+    end
   end
-
+   
   private
 
   def room_params
